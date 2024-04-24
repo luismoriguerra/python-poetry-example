@@ -1,0 +1,20 @@
+
+
+poetry new --name greet --src pygreet
+
+# activate env in the shell
+poetry shell   
+
+
+poetry install
+
+poetry add arrow
+
+
+poetry run pytest
+
+
+poetry run python src/main.py
+
+
+poetry run location
